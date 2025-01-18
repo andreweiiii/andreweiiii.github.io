@@ -5,14 +5,17 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: red; 
+    background-image: url(/assets/images.jpg); 
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+    background-size: cover; /* Ensures the image covers the entire background */
 }
 
 .login-container {
     display: flex;
-    width: 800px;
-    height: 450px;
-    background-color: red; 
+    width: 80%; /* Changed from 800px to 80% */
+    max-width: 800px; /* Added max-width */
+    height: auto; /* Changed from fixed height to auto */
+    background-color: rgb(255, 0, 0); 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
 }
 
@@ -60,7 +63,7 @@ input {
 }
 
 button {
-    width: 110%;
+    width: 100%; /* Changed from 110% to 100% */
     padding: 15px;
     background-color: #1173f3;
     color: white;
@@ -106,6 +109,6 @@ hr {
     background-color: #36a420;
 }
 
-h1{
+h1 {
     color: white;
 }
