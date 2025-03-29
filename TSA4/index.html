@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Guide</title>
+  <!-- 引入Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    
+    body {
+      background-image: url('your-bg-image.jpg'); /* 替换为实际背景图片路径 */
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row justify-content-center my-5">
+      <div class="col-md-8 text-center">
+        <img src="your-logo.png" alt="Restaurant Guide Logo" class="img-fluid"> <!-- 替换为实际logo路径 -->
+        <p class="text-white">PRODUCED BY: LOCAL MAGAZINE</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+
+        <div class="card-deck">
+          <div class="card">
+            <img src="hum.jpg" alt="humburger" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
+            <div class="card-header bg-yellow-500 text-white text-center">humburger</div>
+          </div>
+          <div class="card">
+            <img src="salmon.jpg" alt="salmon" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
+            <div class="card-header bg-yellow-500 text-white text-center">salmon</div>
+          </div>
+          <div class="card">
+            <img src="Malatang.jpg" alt="Malatang" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
+            <div class="card-header bg-yellow-500 text-white text-center">Malatang</div>
+          </div>
+          <div class="card">
+            <img src="Finger cakes.jpg" alt="Finger cakes" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
+            <div class="card-header bg-yellow-500 text-white text-center">Finger cakes</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center my-5">
+      <div class="col-md-10 text-center">
+        <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#mainMenuModal">MAIN MENU</button>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mainMenuModal" tabindex="-1" aria-labelledby="mainMenuModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="mainMenuModalLabel">Main Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-group">
+              <li class="list-group-item">Steak - A delicious grilled steak served with mashed potatoes and vegetables.</li>
+              <li class="list-group-item">Pasta - A variety of pasta dishes, including spaghetti and fettuccine.</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- 引入自定义JavaScript文件，用于添加额外交互逻辑 -->
+  <script src="script.js"></script>
+</body>
+
+</html>
