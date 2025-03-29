@@ -8,80 +8,53 @@
   <!-- 引入Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <style>
-    
-    body {
-      background-image: url('your-bg-image.jpg'); /* 替换为实际背景图片路径 */
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  </style>
 </head>
 
 <body>
-
-  <div class="container-fluid">
-
-    <div class="row justify-content-center my-5">
-      <div class="col-md-8 text-center">
-        <img src="your-logo.png" alt="Restaurant Guide Logo" class="img-fluid"> <!-- 替换为实际logo路径 -->
-        <p class="text-white">PRODUCED BY: LOCAL MAGAZINE</p>
-      </div>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-md-10">
-
-        <div class="card-deck">
-          <div class="card">
-            <img src="hum.jpg" alt="humburger" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
-            <div class="card-header bg-yellow-500 text-white text-center">humburger</div>
-          </div>
-          <div class="card">
-            <img src="salmon.jpg" alt="salmon" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
-            <div class="card-header bg-yellow-500 text-white text-center">salmon</div>
-          </div>
-          <div class="card">
-            <img src="Malatang.jpg" alt="Malatang" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
-            <div class="card-header bg-yellow-500 text-white text-center">Malatang</div>
-          </div>
-          <div class="card">
-            <img src="Finger cakes.jpg" alt="Finger cakes" class="card-img-top"> <!-- 替换为实际餐厅图片路径 -->
-            <div class="card-header bg-yellow-500 text-white text-center">Finger cakes</div>
-          </div>
+  <section id="products" class="animate-on-scroll" data-aos="fade-up">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <h1>Our food</h1>
+                <p>Let's explore the food together.</p>
+            </div>
         </div>
-      </div>
-    </div>
-
-    <div class="row justify-content-center my-5">
-      <div class="col-md-10 text-center">
-        <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#mainMenuModal">MAIN MENU</button>
-      </div>
-    </div>
-
-    <div class="modal fade" id="mainMenuModal" tabindex="-1" aria-labelledby="mainMenuModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="mainMenuModalLabel">Main Menu</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <ul class="list-group">
-              <li class="list-group-item">Steak - A delicious grilled steak served with mashed potatoes and vegetables.</li>
-              <li class="list-group-item">Pasta - A variety of pasta dishes, including spaghetti and fettuccine.</li>
-
-            </ul>
-          </div>
+        <div class="row align-items-center">
+            <div class="col-md-8 d-flex justify-content-center">
+                <div class="card mb-3">
+                    <img src="Malatang.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Malatang</h5>
+                        <p class="card-text">Malatang: A Spicy and Tasty Treat
+                          Malatang, a cherished Chinese street food, has won over hearts worldwide with its fiery allure. Resembling a customizable hot pot, it empowers you to handpick an array of ingredients. Among the choices are vibrant fresh vegetables, tender meats, chewy noodles, and smooth tofu.
+                          Crafting malatang is a breeze. First, you select your desired items from the display. Subsequently, these carefully chosen ingredients are cooked in a simmering, spicy broth. This broth contains Sichuan pepper, which imparts a delightful numbing sensation, along with rich chili oil for a spicy kick and a blend of secret seasonings, resulting in a flavor explosion that's truly irresistible.
+                          Once cooked to perfection, your ingredients are served in a bowl, bathed in the scrumptious broth. Whether you prefer a milder spice level or a palate - searing experience, malatang can be tailored precisely to your taste preferences. It's not merely a meal; it's a convivial dining affair that brings friends and family together. So, if you're eager to embark on a new and delicious culinary adventure, don't hesitate to give malatang a try!
+                          </p>
+                        <button type="button" class="btn btn-dark" onclick="window.location.href='product1.html'">View Product</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 d-flex justify-content-center">
+                <div class="card mb-3">
+                    <img src="salmon.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title">salmon</h5>
+                        <p class="card-text">Salmon, a globally adored fish, is renowned for its rich, buttery flavor and tender, flaky texture. Its distinct pink - orange flesh, courtesy of natural pigments like astaxanthin from its krill - based diet, makes it visually appealing. Originating from the Atlantic and Pacific Oceans, salmon is incredibly versatile in the kitchen. It can be grilled to a crispy - skinned perfection, baked for a healthy and flavor - absorbing dish, or served raw in sushi and sashimi, highlighting its fresh taste. Nutritionally, it's a powerhouse, loaded with high - quality protein, heart - healthy omega - 3 fatty acids that reduce inflammation and boost cognitive function, along with essential vitamins like D for bone health and B - vitamins for energy metabolism. Moreover, as a keystone species, salmon plays a crucial role in maintaining the balance of marine ecosystems, making it not only a culinary delight but also an ecologically significant part of our oceans. </p>
+                        <button type="button" class="btn btn-dark" onclick="window.location.href='product2.html'">View Product</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 d-flex justify-content-center">
+                <div class="card mb-3">
+                    <img src="ham.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamburgers</h5>
+                        <p class="card-text">Hamburgers, the world - renowned handheld treats, are a symphony of simple yet scrumptious elements. A soft, often toasted bun cradles a juicy, grilled beef patty, cooked to your liking and seasoned to perfection, its savory flavor taking center stage. Crisp lettuce, juicy tomato slices, and onions (raw for a sharp note or caramelized for sweetness) add freshness and texture. Tangy mustard, rich ketchup, creamy mayonnaise, or a mix of these condiments binds everything together. Some burgers get creative with bacon's smoky saltiness, melted cheese's decadence, or unique toppings like avocado or jalapenos. Portable, customizable, and consistently mouthwatering, hamburgers are beloved by all ages, equally at home in fast - food spots, diners, or backyard barbecues. </p>
+                        <button type="button" class="btn btn-dark" onclick="window.location.href='product3.html'">View Product</button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-
-  <!-- 引入Bootstrap JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- 引入自定义JavaScript文件，用于添加额外交互逻辑 -->
-  <script src="script.js"></script>
-</body>
-
+</section>
 </html>
